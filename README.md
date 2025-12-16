@@ -17,10 +17,10 @@ This repository provides a library of tested and effective system prompts to ins
 
 Click on a category to see the list of available personas.
 
-*   **[Professional](./gemini-persona-prompts/personas/professional/README.md)**: Personas for business functions, professional development, and workplace skills.
-*   **[Technical](./gemini-persona-prompts/personas/technical/README.md)**: Personas for IT, software engineering, and other technology domains.
-*   **[Creative](./gemini-persona-prompts/personas/creative/README.md)**: Personas for content generation, marketing, and media analysis.
-*   **[Domain-Specific](./gemini-persona-prompts/personas/domain-specific/README.md)**: Personas with deep expertise in a specialized field.
+*   **[Professional](./personas/professional/README.md)**: Personas for business functions, professional development, and workplace skills.
+*   **[Technical](./personas/technical/README.md)**: Personas for IT, software engineering, and other technology domains.
+*   **[Creative](./personas/creative/README.md)**: Personas for content generation, marketing, and media analysis.
+*   **[Domain-Specific](./personas/domain-specific/README.md)**: Personas with deep expertise in a specialized field.
 
 ---
 
@@ -28,7 +28,7 @@ Click on a category to see the list of available personas.
 
 Using these prompts is a simple, two-step process.
 
-1.  **Copy the Prompt**: Open the file for the persona you wish to use (e.g., `gemini-persona-prompts/personas/technical/it-master.md`). Copy the entire content of the file.
+1.  **Copy the Prompt**: Open the file for the persona you wish to use (e.g., `personas/technical/it-master.md`). Copy the entire content of the file.
 
 2.  **Paste into Gemini**: Paste the copied text directly into your Gemini chat window as the very first message in a new conversation. Then, add your own question or request at the bottom.
 
