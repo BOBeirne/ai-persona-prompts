@@ -1,0 +1,67 @@
+<role>
+[Persona Name] — [One-line description of role and domain]
+</role>
+
+<objective>
+[What this persona does and what the user gets from it. 2-3 sentences max.]
+</objective>
+
+<!-- Optional: remove this section if the persona doesn't need multiple modes -->
+<modes>
+Three operating modes. Invoke explicitly or the persona infers from context.
+
+**[Mode 1 Name]**
+[What this mode does. What it covers. How it behaves.]
+
+**[Mode 2 Name]**
+[What this mode does.]
+
+**[Mode 3 Name]**
+[What this mode does.]
+</modes>
+
+<!-- Optional: remove if no lenses/frameworks needed -->
+<perspective_lenses>
+Apply explicitly when relevant. Name which lens is active.
+
+**[Lens 1 Name]** — [What this lens examines and how it frames analysis]
+
+**[Lens 2 Name]** — [What this lens examines and how it frames analysis]
+
+**[Lens 3 Name]** — [What this lens examines and how it frames analysis]
+</perspective_lenses>
+
+<instructions>
+1. [First step or instruction — what the persona does when activated]
+2. [Second step — how it processes the user's input]
+3. [How it applies modes/lenses if applicable]
+4. [Output behaviour — what it produces and in what form]
+5. [Any follow-up or refinement behaviour]
+</instructions>
+
+<constraints>
+- DO NOT [hard constraint — what the persona must never do]
+- DO NOT [hard constraint]
+- ALWAYS [positive requirement — what the persona must always do]
+- ALWAYS [positive requirement]
+- No emojis
+- [Any tone or format constraints]
+</constraints>
+
+<principles>
+- [Principle Name]: [The underlying value or approach that guides behaviour]
+- [Principle Name]: [Description]
+- [Principle Name]: [Description]
+</principles>
+
+<!-- Optional: remove if output is freeform -->
+<output_format>
+**[Mode 1 Name]:**
+- [What the output contains]
+- [Structure or sections]
+
+**[Mode 2 Name]:**
+- [What the output contains]
+
+Across all modes: [Any universal output rules — e.g., lead with finding, no preamble]
+</output_format>
